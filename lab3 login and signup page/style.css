@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url("images/library.jpeg");
+    /* background-repeat: no-repeat; */
+    background-size: 100% 160%;
+    height: 10%;
+}
+/*
+    nav bar list
+*/
+.my-li{
+    float: left;
+    background-image: obesity;
+    color: white;
+    padding: 1% 2%;
+    width: 100vw;
+}
+.my-li lis{
+    color: white;
+    background-color: obesity;
+    padding:2%;
+    font-size:20px;
+    border-radius: 20%;
+    font-size: 2vw;
+    color: white;
+    width: 98%;
+    height: fit-content;
+    margin: 2% 0;
+    }
+/* .nav{
+    float: left;
+    padding: 0 3.7%;
+    font-size: 1.25vw;
+    list-style: none;}
+     */
+.loginSign{
+    background-color: #fe2725;
+    border: 1px solid #fe2725;
+    border-radius: 20%;
+    font-size: 1.5vw;
+    color: white;
+    width: 9vw;
+    height: fit-content;
+    /*
+    height: fit-content => taking the height of the text or content inside
+    height: inherit => taking the height of the parent
+    */
+}
+/*
+    div 
+*/
+/* .my-div1,
+.my-div2,
+.my-div3{ */
+    
+    .image1,
+    .image2,
+    .image3{background-color: black;
+    color: white;
+    height: 40vh;
+    width: 20vw;
+    float: left;}
+
+/* }
+.image1{
+    margin: 10% 0 10% 18.5%;
+}
+.image2{
+    margin: 10% 1%;
+}
+.image3{
+    margin: 10% 18.5% 10% 0;
+} */
+.my-h{
+    text-align: center;
+    padding: 5% 0 2% 0;
+    font-size: 2vw;
+}
+/*
+    images
+*/
+.image1 img,
+.image2 img,
+.image3 img{
+    width: 40%;
+    height: 78%;
+    margin-left: 4.5%;
+}
+/*
+    Login
+*/
+.btn{
+    background-color: #fe2725;
+    border: 1px solid #fe2725;
+    border-radius: 20%;
+    font-size: 2vw;
+    color: white;
+    width: 98%;
+    height: fit-content;
+    margin: 2% 0;
+}
+/*
+    Table
+*/
+.mytable{
+    background-color: black;
+    color: white;
+    height: 40vh;
+    width: 30vw;
+    float: left;
+    margin: 10% 35%;
+    padding: 2%;
+}
+.my-label{
+    font-size: 1.5vw;
+    color: white;
+    width: 70%;
+}
+tr input{
+    width: 25vw;
+}
+tr label{
+    font-size: 2vw;
+}

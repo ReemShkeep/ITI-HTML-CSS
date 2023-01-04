@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=-, initial-scale=1.0">
+    <title>my location</title>
+</head>
+<body>  
+    <h2>my current location</h2>
+    <p style="background-color: black; font-size: large; color: blanchedalmond ; ">
+        how to make my location dynamic usnig js 
+    </p>
+
+
+
+    <iframe id="Getlocation" src="https://www.google.com/maps/embed?" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <button onclick="Getmylocation()"> get my location </button>
+    <script>
+
+function Getmylocation(){
+    navigator.geolocation.watchPosition(function(pos){
+        let lat= pos.coords.latitude; 
+        let long= pos.coords.longitude;
+        document.getElementById("Getlocation").src="https://maps.google.com/?q="+ lat +","+ long +"&output=embed"
+    }
+)};
+
+
+
+        
+    </script>
+
+
+
+
+
+
+    
+</body>
+</html>

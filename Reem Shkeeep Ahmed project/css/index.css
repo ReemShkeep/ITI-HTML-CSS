@@ -1,0 +1,288 @@
+/* start general  */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;}
+
+.clear {
+  clear: both;
+}
+.container {
+  margin: 0 10%;
+}
+
+/* end general */
+
+/* strt nav */
+.navbar {
+  position: fixed;
+  background-color: #2c3e50;
+  color: #fffffff6;
+  width: 100%;
+  padding: 1% 0;
+  z-index: 2;
+}
+
+.navbar .logo {
+  float: left;
+  padding: 1% 2%;
+  font-weight: 700;
+  width: 20%;
+  font-size: 1.5vw;
+}
+.navbar .menu {
+  width: 30%;
+  float: left;
+  list-style-type: none;
+  margin-left: 50%;
+  background-color: #2c3e50;
+}
+
+.navbar .menu li a {
+  float: left;
+  text-decoration: none;
+  color: #fffffff6;
+  padding: 2%;
+  font-size: 1.5vw;
+}
+
+.navbar .menu a:hover {
+  background-color: #1abc9c;
+  color: #fffffff6;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+/* end nav  */
+
+/*start main */
+.main {
+  background-color: #1abc9c;
+  height: 95vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.image {
+  position: absolute;
+  top: 30%;
+  left: 46%;
+  transform: translate(-50%, -50%);
+  height: 5vh;
+  width: 15vw;
+}
+
+.main .iti {
+  position: absolute;
+  color: #fffffff6;
+  top: 70%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+}
+
+.iti span {
+  margin-left: 11%;
+}
+.iti h2 {
+  font-size: 3vw;
+}
+
+.iti h3 {
+  font-size: 1.5vw;
+}
+
+/* end main  */
+
+/* strt portofolio & images  */
+
+.imagesheading {
+  margin-left: 39%;
+  padding: 0%;
+}
+.imagesheading Span{
+  padding:3% 0 2% 3% ;
+}
+
+.imagesheading h2 {
+  color: #000000;
+  font-weight: bold;
+  font-size: 2vw;
+  padding: 2% 0 0 3%;
+}
+
+.imagei,
+.imageii,
+.imageiii,
+.imageiv,
+.imagev,
+.imagevi {
+  height: 30vh;
+  width: 20%;
+  float: left;
+  background-color: #ffffff;
+  padding: 1%;
+  border-radius: 15%;
+}
+.images {
+  margin-left: 25%;
+}
+/* the start of "about" text   */
+
+/* the two texts */
+.text {
+  background-color: #1abc9c;
+  height: 70vh;
+}
+
+.abouttext {
+  background-color: #1abc9c;
+  height: 70vh;
+}
+
+.abouttext span {
+  margin-left: 11%;
+}
+.abouttext h2 {
+  font-size: 3vw;
+}
+
+.abouttext h3 {
+  font-size: 1.5vw;
+}
+
+/* starting the paragraph part about */
+
+.text {
+  padding: 0 25%;
+  height: 50vh;
+  width: 100%;
+  color: rgba(255, 246, 246, 0.918);
+}
+.headingabout {
+  font-weight: bold;
+  font-size: 1.5vw;
+  margin-left: 30%;
+}
+
+.headingabout h2 {
+  padding-left: 10%;
+  width: 7vw;
+}
+.lefttext {
+  float: left;
+  padding: 4% 4% 0 0%;
+  width: 50%;
+}
+.righttext {
+  float: right;
+  padding: 4% 4% 0 0%;
+  width: 50%;
+}
+
+/* the end of "about" text   */
+
+/* starting form inputs  */
+.contactme {
+  margin: 5% 10% 5% 37%;
+}
+.contactme span {
+  padding: 2% 0 0 7%;
+}
+.contactme h2 {
+  padding: 2% 0 0 7%;
+}
+/* startint the form */
+.forminput {
+  position: relative;
+  margin: 2vw 0 1vw;
+}
+
+input,
+textarea {
+  font-size: 1vw;
+  padding: 1vh 1vw 1vh 0.5vw;
+  display: block;
+  width: 22vw;
+  border: none;
+  border-bottom: 1px solid #757575;
+}
+
+label {
+  color: #999;
+  font-size: 1.5vw;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 0.5vw;
+  top: 0.5vh;
+}
+
+.forminput .btn {
+  background-color:  #1abc9c;
+  border:#1abc9c ;
+  color:#ffffff;
+  opacity: 0.6;}
+
+/* ending form inputs  */
+
+/* starting foorter  */
+.footer {
+  background-color: #2c3e50;
+  color: white;
+  width: 100%;
+}
+
+.footer .location {
+  float: left;
+  padding: 1% 2%;
+  font-weight: 700;
+  width: 33%;
+  font-size: 1.3vw;
+}
+
+.footer .social-media {
+  float: left;
+  width: 33.3%;
+  background-color: transparent;
+  color: rgb(246, 248, 250);
+  padding: 1% 2% 1% 6%;
+}
+
+.footer .social-media .icons{
+  padding-left: 14%;
+}
+.footer .social-media .icons .icon {
+  text-decoration: none;
+  color: #fffffff6;
+  list-style-type: none;
+  border: 0.1vw solid #ffffff;
+border-radius: 50%;
+float: left;
+padding: 2%;
+
+}
+
+.footer .freelancer {
+  float: left;
+  width: 33%;
+  padding:1% 2% 0 2% ;
+}
+.footer .freelancer span {
+  color: #1abc9c;
+  text-decoration: underline;
+}
+
+.footer .theSmallFooter {
+  width: 100%;
+  background-color: #151e27;
+  color: rgb(240, 232, 220);
+  text-align: center;
+}
+
+

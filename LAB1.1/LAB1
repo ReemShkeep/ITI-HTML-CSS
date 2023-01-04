@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lab 1 Task(Yuppiee!)</title>
+  </head>
+
+  <body>
+    <div>
+        <h1>This is the OG frame I got here.</h1>
+        
+        <p>I'm about to blow your minds.</p>
+        
+        <iframe
+        src="#"
+        style="border: 3px solid blue"
+        title="Iframe Sample"
+        ></iframe>
+    </div>
+    <div>
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Lab 1 Task(Yuppiee!)</title>
+
+
+</head>
+
+<body>
+<h1>This is the OG frame I got here.</h1>
+
+<p>I'm about to blow your minds.</p>
+
+<iframe src="#" style="border:3px solid blue;" title="Iframe Sample"></iframe>
+
+</body>
+
+</html>
+    </div>
+  </body>
+</html>
